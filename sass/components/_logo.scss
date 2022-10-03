@@ -1,0 +1,40 @@
+
+.logo--top {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+
+@media (max-width: 768px) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+}
+
+.logo {
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    text-decoration: none;
+    transition: color var(--transition-const);
+
+    &:hover, &:focus {
+        color: var(--accent-text-color);
+    }
+
+@media (max-width: 768px) {
+    font-size: 24px;
+    line-height: 1.17;
+}
+}
+
+.logo-color {
+    color: var(--accent-text-color);
+}
+
+.logo--bottom {
+    margin-right: 0px;
+    color: var(--just-white-color);
+}
